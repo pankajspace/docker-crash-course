@@ -1,5 +1,7 @@
 FROM node:17-alpine
 
+COPY package.json .
+
 WORKDIR /app
 
 COPY . .
